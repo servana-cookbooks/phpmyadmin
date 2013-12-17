@@ -21,7 +21,7 @@ default['phpmyadmin']['version'] = '4.0.9'
 default['phpmyadmin']['checksum'] = 'e7d22f3af3e0e363a6330f464a5f1cdd76f20bc5bcf0f980585d517c1ea4a80d'
 default['phpmyadmin']['mirror'] = 'http://sourceforge.net/projects/phpmyadmin/files/phpMyAdmin'
 
-default['phpmyadmin']['fpm'] = true
+default['phpmyadmin']['fpm'] = false
 
 default['phpmyadmin']['home'] = '/opt/phpmyadmin'
 default['phpmyadmin']['user'] = 'phpmyadmin'
